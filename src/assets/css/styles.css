@@ -81,6 +81,16 @@ body {
   text-transform: uppercase;
   padding: 8px 0;
 }
+p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
 section {
   position: relative;
 }
@@ -110,4 +120,34 @@ section.section1 .slogan {
   position: absolute;
   bottom: 135px;
   left: 97px;
+}
+section.section1 .btn-play-video {
+  width: 90px;
+  height: 90px;
+  border: solid 3px #ffffff;
+  background: url(../images/2.svg) no-repeat 61% 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -60px 0 0 -45px;
+  cursor: pointer;
+}
+section.section2 {
+  text-align: center;
+  mix-blend-mode: undefined;
+  background-color: #0086c6;
+  background-color: var(--cerulean);
+}
+section.section2 p {
+  width: 568px;
+  margin-top: 91px;
+  display: inline-block;
+}
+section.section2 .countries-items .countrie-item {
+  display: inline-block;
+}
+section.section2 .countries-items .countrie-item img {
+  width: 145px;
+  height: 145px;
 }
