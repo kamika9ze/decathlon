@@ -41,6 +41,7 @@ body {
 .header .logo {
   display: inline-block;
   float: left;
+  width: 187px;
 }
 .header .number-points {
   float: right;
@@ -126,6 +127,9 @@ section.section1 .section1-ball {
   box-sizing: border-box;
   z-index: 2;
 }
+section.section1 .section1-ball img {
+  width: 100%;
+}
 section.section1 .slogan {
   position: absolute;
   bottom: 135px;
@@ -143,10 +147,22 @@ section.section1 .btn-play-video {
   margin: -60px 0 0 -45px;
   cursor: pointer;
 }
+section.section1 .social {
+  position: absolute;
+  right: 42;
+  bottom: 49;
+}
+section.section1 .social li {
+  display: inline-block;
+  float: left;
+  padding: 0 4.5px;
+}
 section.section2 {
   text-align: center;
   mix-blend-mode: undefined;
   background-color: #0086c6;
+  background: url('../images/bg-section2.png') no-repeat 50% 52% #0086c6;
+  background-size: 100% auto;
 }
 section.section2 p {
   width: 568px;
@@ -224,4 +240,5 @@ section.section2 .full-list {
   color: #ffffff;
   margin-bottom: 19px;
   display: inline-block;
+  text-decoration: none;
 }
