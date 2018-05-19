@@ -152,6 +152,7 @@ section.section2 p {
   width: 568px;
   margin-top: 91px;
   display: inline-block;
+  margin-bottom: 88px;
 }
 section.section2 .countries-items .countrie-item {
   display: inline-block;
@@ -179,6 +180,9 @@ section.section2 .countries-items .countrie-item:hover img {
   margin: -5px 0 0 -5px;
   max-width: initial;
 }
+section.section2 .countries-items .countrie-item:hover .countrie-item-text {
+  opacity: 1;
+}
 section.section2 .countries-items .countrie-item .countrie-item-text {
   font-size: 18px;
   font-weight: 300;
@@ -188,6 +192,9 @@ section.section2 .countries-items .countrie-item .countrie-item-text {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+  display: block;
+  opacity: 0;
+  margin-top: 6px;
 }
 section.section2 .buy_ticket {
   font-size: 18px;
