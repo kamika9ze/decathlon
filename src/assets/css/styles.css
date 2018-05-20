@@ -157,6 +157,9 @@ section.section1 .social li {
   float: left;
   padding: 0 4.5px;
 }
+section.section1 .box-video {
+  display: none;
+}
 section.section2 {
   text-align: center;
   mix-blend-mode: undefined;
