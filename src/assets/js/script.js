@@ -37,8 +37,18 @@
 	player.stopVideo();
 	}
 jQuery(document).ready(function(){
-$(document).on('click', '.btn-play-video', function() {
-	$('.box-video').fadeIn('400', function() {});
-	player.playVideo();
-});
+	$(document).on('click', '.btn-play-video', function() {
+		$('.box-video').fadeIn('400', function() {});
+		player.playVideo();
+	});
+	if ($(window).width()<992) {
+		$('.countries-items').slick({
+			centerMode: true,
+			slidesToShow: 1,
+			variableWidth: true,
+			dots: true,
+			arrows: false,
+			infinite: true
+		});		
+	}
 });
