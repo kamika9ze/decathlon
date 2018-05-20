@@ -36,11 +36,9 @@
 	function stopVideo() {
 	player.stopVideo();
 	}
-$(".section-history-btn").click(function () {
-    $(this).parents('.section-history').find('.section-history-hide-text').show();
-    $(this).hide();
-});
+jQuery(document).ready(function(){
 $(document).on('click', '.btn-play-video', function() {
 	$('.box-video').fadeIn('400', function() {});
 	player.playVideo();
+});
 });

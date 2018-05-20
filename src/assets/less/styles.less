@@ -6,6 +6,7 @@
 	-moz-transition: all 0.1s ease-in;
 	-o-transition: all 0.1s ease-in;
 	transition: all 0.1s ease-in;
+    outline: none;
 }
 img {
 	max-width: 100%;
@@ -149,8 +150,8 @@ section {
 		}
 		.social {
 			position: absolute;
-			right: 42;
-			bottom: 49;
+			right: 42px;
+			bottom: 49px;
 			li > {
 				display: inline-block;
 				float: left;
@@ -159,6 +160,11 @@ section {
 		}
 		.box-video {
 			display: none;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			z-index: 2;
 		}
 	}
 	&.section2 {
