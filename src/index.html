@@ -14,19 +14,18 @@
 			<div class="section1-ball">
 				<img src="./assets/images/ball-wc-18-russie-t-5-001-expires-on-29-11-2031.svg" class="ball-wc18-russie-t5---001-----Expires-on-29-11-2031">
 			</div>
-			<button class="btn-play-video"></button>
-			<a href="#section2" class="btn-next"></a>
-			<ul class="social">
-				<li><a href="#"><img src="./assets/images/social/ellipse-722-copy.png" srcset="./assets/images/social/ellipse-722-copy@2x.png 2x,
-             ./assets/images/social/ellipse-722-copy@3x.png 3x" alt=""></a></li>
-				<li><a href="#"><img src="./assets/images/social/fb.png" srcset="./assets/images/social/fb@2x.png 2x,
-             ./assets/images/social/fb@3x.png 3x" alt=""></a></li>
-				<li><a href="#"><img src="./assets/images/social/tv.png" srcset="./assets/images/social/tv@2x.png 2x,
-             ./assets/images/social/tv@3x.png 3x" alt=""></a></li>
-				<li><a href="#"><img src="./assets/images/social/vk.png" alt=""></a></li>
-				<li><a href="#"><img src="./assets/images/social/ellipse-722-copy-2.png" srcset="./assets/images/social/ellipse-722-copy-2@2x.png 2x,
-             ./assets/images/social/ellipse-722-copy-2@3x.png 3x" alt=""></a></li>
-			</ul>
+			<button class="btn-play-video" onclick="gtag('event', 'play', { 'event_category': 'first', 'event_action': 'click', 'event_label': 'play', });"></button>
+			<a href="#section2" class="btn-next" onclick="gtag('event', 'down', { 'event_category': 'first', 'event_action': 'click', 'event_label': 'down', });"></a>
+			<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+			<script src="//yastatic.net/share2/share.js"></script>
+			<div class="ya-share2 social" data-services="odnoklassniki,facebook,twitter,vkontakte,telegram" data-image="http://decathlon.championat.com/assets/images/fb.jpg" data-bare data-description="В год, когда вся Россия живет футболом, французские спортивные гипермаркеты Декатлон планируют подарить 15 000 мячей детям из детских домов" data-title="ПОДАРИ РАДОСТЬ СПОРТА ВМЕСТЕ С ДЕКАТЛОН!" data-url="http://decathlon.ru/"></div>
+			<!-- <ul class="social">
+				<li><a href="https://ok.ru/" onclick="gtag('event', 'share ok', { 'event_category': 'first', 'event_action': 'click', 'event_label': 'share ok', });"><img src="./assets/images/social/all-01.svg" alt=""></a></li>
+				<li><a href="https://www.facebook.com/" onclick="gtag('event', 'share fb', { 'event_category': 'first', 'event_action': 'click', 'event_label': 'share fb', });"><img src="./assets/images/social/all-04.svg" alt=""></a></li>
+				<li><a href="https://twitter.com/" onclick="gtag('event', 'share tw', { 'event_category': 'first', 'event_action': 'click', 'event_label': 'share tw', });"><img src="./assets/images/social/all-02.svg" alt=""></a></li>
+				<li><a href="https://vk.com" onclick="gtag('event', 'share vk', { 'event_category': 'first', 'event_action': 'click', 'event_label': 'share vk', });"><img src="./assets/images/social/all-03.svg" alt=""></a></li>
+				<li><a href="https://telegram.org/" onclick="gtag('event', 'share tg', { 'event_category': 'first', 'event_action': 'click', 'event_label': 'share tg', });"><img src="./assets/images/social/all-05.svg" alt=""></a></li>
+			</ul> -->
 			<div class="box-video">
 				<a href="#" class="player-btn-close"></a>
 				<div id="player"></div>        
@@ -38,29 +37,29 @@
 			в детский дом. Акция продлится до 15 июля*, даты окончания 
 			Чемпионата мира по футболу в России.</p>
 			<div class="countries-items">
-				<a href="javascript:void(0);" class="countrie-item">
+				<a href="https://www.decathlon.ru/mch-russia-razmer-5_e1-id_8481034.html" class="countrie-item" target="blank" onclick="gtag('event', 'ball rus', { 'event_category': 'second', 'event_action': 'click', 'event_label': 'ball rus', });">
 					<span class="countrie-item-img"><img src="./assets/images/ball-wc-18-russie-t-5-001-expires-on-29-11-2031 (1).svg"></span>
 					<div class="countrie-item-text">Россия</div>
 				</a>
-				<a href="javascript:void(0);" class="countrie-item">
+				<a href="https://www.decathlon.ru/mch-frantsi-razmer-5-_e1-id_8406899.html" class="countrie-item" target="blank" onclick="gtag('event', 'ball fr', { 'event_category': 'second', 'event_action': 'click', 'event_label': 'ball fr', });">
 					<span class="countrie-item-img"><img src="./assets/images/ball-wc-18-france-t-5-001-expires-on-29-11-2031.svg"></span>
 					<div class="countrie-item-text">Франция</div>
 				</a>
-				<a href="javascript:void(0);" class="countrie-item">
+				<a href="https://www.decathlon.ru/mch-ispani-razmer-5-_e1-id_8400953.html" class="countrie-item" target="blank" onclick="gtag('event', 'ball es', { 'event_category': 'second', 'event_action': 'click', 'event_label': 'ball es', });">
 					<span class="countrie-item-img"><img src="./assets/images/ball-wc-18-espagne-t-5-001-expires-on-29-11-2031.png"></span>
 					<div class="countrie-item-text">Испания</div>
 				</a>
-				<a href="javascript:void(0);" class="countrie-item">
+				<a href="https://www.decathlon.ru/mch-brazili-razmer-5-_e1-id_8403968.html" class="countrie-item" target="blank" onclick="gtag('event', 'ball br', { 'event_category': 'second', 'event_action': 'click', 'event_label': 'ball br', });">
 					<span class="countrie-item-img"><img src="./assets/images/ball-wc-18-bresil-t-5-001-expires-on-29-11-2031.svg"></span>
 					<div class="countrie-item-text">Бразилия</div>
 				</a>
-				<a href="javascript:void(0);" class="countrie-item">
+				<a href="https://www.decathlon.ru/mch-germani-razmer-5-_e1-id_8400991.html" class="countrie-item" target="blank" onclick="gtag('event', 'ball de', { 'event_category': 'second', 'event_action': 'click', 'event_label': 'ball de', });">
 					<span class="countrie-item-img"><img src="./assets/images/ball-wc-18-allemagne-t-5-001-expires-on-29-11-2031.svg"></span>
 					<div class="countrie-item-text">Германия</div>
 				</a>
 			</div>
-			<a href="javascript:void(0);" class="buy_ticket">Купить мяч</a>
-			<span class="full-list">*Полный список благополучателей можно найти на сайте <a href="#">decathlon.ru</a></span>
+			<a href="https://www.decathlon.ru/worldcup_2018.html" class="buy_ticket" target="blank" onclick="gtag('event', 'buy', { 'event_category': 'second', 'event_action': 'click', 'event_label': 'buy', });">Купить мяч</a>
+			<span class="full-list">*Полный список благополучателей можно найти на сайте <a href="http://decathlon.ru/" onclick="gtag('event', 'decathlon', { 'event_category': 'second', 'event_action': 'click', 'event_label': 'decathlon', });">decathlon.ru</a></span>
 		</section>
 		<section class="section section2"></section>
 		<script type="text/javascript" src="./assets/js/jquery-1.9.1.min.js"></jquery-1>.js"></script>
