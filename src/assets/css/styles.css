@@ -101,6 +101,7 @@ p {
   width: 38px;
   height: 21px;
   background: url('../images/1.svg');
+  background-size: cover;
   position: absolute;
   left: 50%;
   margin-left: -19px;
