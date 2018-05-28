@@ -51,4 +51,21 @@ jQuery(document).ready(function(){
 			infinite: true
 		});		
 	}
+	Ya.share2('#ya-share2', {
+	    hooks: {
+	        onshare: function (name) {
+	            if (name == 'vkontakte') {
+	            	gtag('event', 'share vk', { 'event_category': 'external', 'event_action': 'click', 'event_label': 'social', });            	
+	            } else if (name == 'facebook') {
+	            	gtag('event', 'share fb', { 'event_category': 'external', 'event_action': 'click', 'event_label': 'social', }); 
+	            } else if (name == 'twitter') {
+	            	gtag('event', 'share tw', { 'event_category': 'external', 'event_action': 'click', 'event_label': 'social', }); 
+	            } else if (name == 'odnoklassniki') {
+	            	gtag('event', 'share ok', { 'event_category': 'external', 'event_action': 'click', 'event_label': 'social', }); 
+	            } else if (name == 'telegram') {
+	            	gtag('event', 'share tg', { 'event_category': 'external', 'event_action': 'click', 'event_label': 'social', }); 
+	            }
+	        }
+	    }
+	});
 });
