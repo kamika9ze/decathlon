@@ -13,7 +13,7 @@
 	  height: '100%',
 	  width: '100%',
 	  videoId: '0PZGt-MFbps',
-	  playerVars: { 'autoplay': 0, 'controls': 0, 'disablekb':0, 'iv_load_policy':3, 'modestbranding':1, 'showinfo':0, 'border':0},
+	  playerVars: { 'autoplay': 0, 'controls': 0, 'disablekb':1, 'iv_load_policy':3, 'modestbranding':1, 'showinfo':0, 'border':0, 'rel':0},
 	  events: {
 	    'onStateChange': onPlayerStateChange
 	  }
@@ -30,7 +30,7 @@
 	var done = false;
 	function onPlayerStateChange(event) {
 	if (event.data == YT.PlayerState.ENDED && !done) {
-	  jQuery('.box-video').fadeOut('400', function() {});
+	  jQuery('.box-video').fadeOut('100', function() {});
 	}
 	}
 	function stopVideo() {
